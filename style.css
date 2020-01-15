@@ -1,0 +1,80 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background: #575fcf;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-main {
+    width: 50%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 70px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.box-main .titulo {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box-main form label {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.box-main form input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 102px 13px 22px;
+    margin-bottom: 15px;
+}
+
+.btn-calcular {
+    border: none;
+    background-color: #2f3640;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-calcular:hover {
+    background-color: #3a4554;
+}
+
+.btn-calcular:focus, .btn-calcular:active {
+    background-color: #344761;
+}
+
+.btn-calcular:active {
+    background-color: #3a4554;
+}
+
+.res {
+    float: right;
+    padding: 5px 5px;
+    color: #fff;
+    font-weight: 700;
+}
